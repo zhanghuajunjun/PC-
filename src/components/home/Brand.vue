@@ -4,7 +4,7 @@
       <div class="name">{{brand.name}}</div>
       <div class="huanh">
         <div v-for="(item,index) in brand.panelContents" :key="index" class="item">
-          <div v-if="index===0" class="items">
+          <div v-if="index===0" class="items hover">
             <img :src="item.picUrl" alt width="610px" height="353px"/>
           </div>
           <div v-else class="img">
@@ -78,7 +78,6 @@ export default {
 .item {
   background: white;
   text-align: center;
-  z-index: 10;
 }
 .img:hover {
   cursor: pointer;

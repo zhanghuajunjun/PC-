@@ -4,39 +4,39 @@
       <div class="d-flex">
         <div>
           <div class="word1">订单服务</div>
-          <div class="word2">购买指南</div>
-          <div class="word2">支付方式</div>
-          <div class="word2">送货政策</div>
+          <div class="word2 hover">购买指南</div>
+          <div class="word2 hover">支付方式</div>
+          <div class="word2 hover">送货政策</div>
         </div>
         <div>
           <div class="word1">服务支持</div>
-          <div class="word2">官方开源</div>
-          <div class="word2">项目前端</div>
-          <div class="word2">项目后端</div>
+          <div class="word2 hover">官方开源</div>
+          <div class="word2 hover">项目前端</div>
+          <div class="word2 hover">项目后端</div>
         </div>
         <div>
           <div class="word1">自助服务</div>
-          <div class="word2">个人博客</div>
-          <div class="word2">个人简介</div>
-          <div class="word2">个人视频</div>
+          <div class="word2 hover">个人博客</div>
+          <div class="word2 hover">个人简介</div>
+          <div class="word2 hover">个人视频</div>
         </div>
         <div>
           <div class="word1">其他项目</div>
-          <div class="word2">XPay支付系统</div>
-          <div class="word2">数据共享</div>
-          <div class="word2">待开发...</div>
+          <div class="word2 hover">XPay支付系统</div>
+          <div class="word2 hover">数据共享</div>
+          <div class="word2 hover">待开发...</div>
         </div>
         <div>
           <div class="word1">友情链接</div>
-          <div class="word2">宇cccc</div>
-          <div class="word2">Smartisan</div>
-          <div class="word2">Vue</div>
+          <div class="word2 hover">宇cccc</div>
+          <div class="word2 hover">Smartisan</div>
+          <div class="word2 hover">Vue</div>
         </div>
         <div>
           <div class="word1">关注我吧</div>
-          <div class="word2">腾讯QQ</div>
-          <div class="word2">新浪微博</div>
-          <div class="word2">官方邮箱</div>
+          <div class="word2 hover">腾讯QQ</div>
+          <div class="word2 hover">新浪微博</div>
+          <div class="word2 hover">官方邮箱</div>
         </div>
       </div>
       <div class="dv2">
@@ -51,15 +51,15 @@
       <div class="dv3">
         <div>Copyright 2017, exrick.cn Co., Ltd. All Rights Reserved.本网站设计内容大部分属锤子科技</div>
         <div class="Y-axis"></div>
-        <Button type="text" ghost class="word5">法律声明</Button>
+        <Button type="text" ghost class="word5 hover">法律声明</Button>
         <div class="Y-axis"></div>
-        <Button type="text" ghost class="word5">隐私条款</Button>
+        <Button type="text" ghost class="word5 hover">隐私条款</Button>
         <div class="Y-axis"></div>
-        <Button type="text" ghost class="word5">开发者中心</Button>
+        <Button type="text" ghost class="word5 hover">开发者中心</Button>
       </div>
       <div>
-        <span class="word6">蜀ICP备16030308号-1</span>
-        <span class="word6">蜀ICP证16030308号</span>
+        <span class="word6 hover">蜀ICP备16030308号-1</span>
+        <span class="word6 hover">蜀ICP证16030308号</span>
       </div>
     </div>
   </div>
@@ -140,7 +140,7 @@ export default {
 .Y-axis {
   width: 1px;
   height: 20px;
-  border: 1px solid rgb(200, 200, 200);
+  background: rgb(200, 200, 200);
   margin-left: 10px;
 }
 .word5 {

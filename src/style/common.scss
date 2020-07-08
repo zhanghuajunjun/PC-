@@ -88,6 +88,7 @@
 .padd-lr {
     padding: 0 5px;
 }
+
 .padd-lrs {
     padding: 0 10px;
 }
@@ -114,6 +115,12 @@
 .marg-tops {
     margin-top: 10px;
 }
+.marg-bos {
+    margin-bottom: 10px;
+}
+.marg-bosw {
+    margin-bottom: 15px;
+}
 /* 左边距10px */
 .marg-les {
     margin-left: 10px;
@@ -124,4 +131,7 @@
 }
 .marg-rew {
     margin-right: 25px;
+}
+.hover:hover {
+    cursor: pointer;
 }

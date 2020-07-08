@@ -2,7 +2,7 @@
   <div class="flex-j-c">
     <div class="card">
       <div v-for="item in activity.panelContents" :key="item.id" class="item">
-        <div class="li">
+        <div class="li hover">
           <img :src="item.picUrl" alt class="img" />
         </div>
       </div>
@@ -20,9 +20,7 @@ export default {
     }
   },
   data() {
-    return {
-      padding: 0
-    };
+    return {};
   },
   components: {},
   methods: {},
@@ -51,6 +49,7 @@ export default {
   width: 100%;
   height: 100%;
   box-shadow: inset 1px 1px 10px;
+  transition: all 1s;
   -webkit-box-shadow: 0 0 30px #ccc inset;
   -moz-box-shadow: 0 0 30px #ccc inset;
   -o-box-shadow: 0 0 30px #ccc inset;

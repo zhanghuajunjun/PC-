@@ -69,13 +69,12 @@ export default {
   width: 50%;
   background: white;
   text-align: center;
-  z-index: 10;
 }
 .item:hover {
   cursor: pointer;
   transform: translateY(-3px);
   box-shadow: 2px 2px 10px #000;
-  transition: all .5s;
+  transition: all 1s;
   z-index: 99;
 }
 img {

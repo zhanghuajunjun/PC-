@@ -12,7 +12,7 @@ export default {
     return service.get(`/goods/recommend`)
   },
   // 3、所有商品
-  allGoods(
+  allGoods({
     // 请求页数(必填)
     page,
     // 请求条数(必填)
@@ -22,8 +22,26 @@ export default {
     // 价格区间 从多少开始
     priceGt,
     // 价格区间 到哪结束
-    priceLte) {
-    return service.get(`/goods/allGoods?page=${page}&size=${size}sort=${sort}priceGt=${priceGt}priceLte=${priceLte}`)
+    priceLte}) {
+    return service.get(`/goods/allGoods?page=${page}&size=${size}&sort=${sort}&priceGt=${priceGt}&priceLte=${priceLte}`)
+  },
+  allGoodsort({
+    // 请求页数(必填)
+    page,
+    // 请求条数(必填)
+    size,
+    // 排序方式 1为升序 -1为降序
+    sort,
+  }) {
+    return service.get(`/goods/allGoods?page=${page}&size=${size}&sort=${sort}`)
+  },
+  allGood({
+    // 请求页数(必填)
+    page,
+    // 请求条数(必填)
+    size,
+  }) {
+    return service.get(`/goods/allGoods?page=${page}&size=${size}`)
   },
   // 4、搜索商品
   search(

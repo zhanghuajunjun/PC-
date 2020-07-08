@@ -2,7 +2,7 @@
   <div class="flex-j-c">
     <div class="card">
       <div class="flex-j-sb">
-        <div v-for="(item,index) in plate.panelContents" :key="index" class="imgs">
+        <div v-for="(item,index) in plate.panelContents" :key="index" class="imgs hover">
           <div v-if="index>0">
             <img :src="item.picUrl" alt height="200px" class="img"/>
           </div>
@@ -50,6 +50,7 @@ export default {
   width: 100%;
   height: 100%;
   box-shadow: inset 1px 1px 10px;
+  transition: all 1s;
   -webkit-box-shadow: 0 0 30px #ccc inset;
   -moz-box-shadow: 0 0 30px #ccc inset;
   -o-box-shadow: 0 0 30px #ccc inset;
